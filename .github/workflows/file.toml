@@ -1,0 +1,2 @@
+pack_directory = 'C:\path\to\pack'
+allow_mods = ['OptiFine']
