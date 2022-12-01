@@ -14,6 +14,7 @@ jobs:
         with:
           path: ./
           allow_optifine_mod: true
+          output_file_path: MLMC-Community-Textures.zip
       - name: Download optimized pack
         uses: actions/download-artifact@v3
         with:
