@@ -11,7 +11,7 @@ jobs:
           fetch-depth: 0 # A non-shallow repository clone is required
       - name: Run PackSquash
         uses: ComunidadAylas/PackSquash-action@v3
-	  with:
+	with:
           path: ./
           allow_optifine_mod: true
       - name: Download optimized pack
